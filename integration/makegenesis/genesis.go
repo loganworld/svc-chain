@@ -198,7 +198,6 @@ func MakeTestnetGenesisStore() *genesisstore.Store {
 	genStore := genesisstore.NewMemStore()
 	genStore.SetRules(galaxy.TestNetRules())
 	var validatorAccounts = []ValidatorAccount{
-
 		{
 			address:   "0xB16C96e999E223C194e3Dde1D545b3d7432Ae990",
 			validator: "045fef2cf62624de0235e014a0e98b0f0983412394d491445583479bb2f28a14e8210f8a8b5c6e438ab8202f3daef81078120cd2c2346f557c8e4c3151bdaf44d7",
